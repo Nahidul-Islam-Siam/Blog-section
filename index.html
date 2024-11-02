@@ -9,59 +9,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dm-sans {
+            font-family: 'DM Sans', sans-serif;
+        }
+    </style>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-100 ">
     <!-- Blog Page Container -->
-    <div class="max-w-7xl mx-auto p-4">
+    <div class=" container mx-auto  p-2">
         <!-- Blog Header -->
-        <div class="relative rounded-3xl overflow-hidden bg-cover bg-center h-96"
-            style="background-image: url('/assets/30b855df11cc62ecb16de050c35a5be0.png');">
+
+<div class="flex pt-5">
+    <img src="assets/home.png" alt="" srcset="">
+    <p class="">&nbsp; /<span class="font-thin text-sm">&nbsp; Blog</span>&nbsp; / <span class="text-base font-bold">&nbsp; Stylish Travel Bags</span></p>
+</div>
+
+        <div class="relative z-10 mt-8 rounded-3xl font-poppins overflow-hidden bg-cover bg-center h-96"
+            style="background-image: url('assets/30b855df11cc62ecb16de050c35a5be0.png');">
             <div class="absolute inset-0 bg-black opacity-50"></div>
             <div class="relative z-10 pt-28 pl-9">
-                <h4 class="text-base text-white inline-block px-4 py-2 rounded-lg"
+                <h4 class="text-base font-poppins text-white inline-block px-4 py-2 rounded-lg"
                     style="background-color: rgba(0, 0, 0, 0.2); backdrop-filter: blur(10px);">
                     TRENDY
                 </h4>
 
-                <h1 class="text-white text-5xl font-semibold uppercase pt-3">Stylish Travel Bags</h1>
+                <h1 class="text-white font-poppins text-5xl font-semibold uppercase pt-3">Stylish Travel Bags</h1>
                 <div class="flex gap-5 pt-4 pb-4">
                     <div>
                         <img class="w-14 h-14 rounded-full ring-2 ring-[#8993A4] dark:ring-gray-500"
-                            src="/assets/Author Image.png" alt="Author's avatar">
+                            src="assets/Author Image.png" alt="Author's avatar">
                     </div>
                     <div>
-                        <h1 class="text-xl text-white font-medium">Omar Farooq</h1>
-                        <p class="text-xl text-white font-medium">17 September, 2024</p>
+                        <h1 class="text-xl font-poppins text-white font-medium">Omar Farooq</h1>
+                        <p class="text-xl font-poppins text-white font-medium">17 September, 2024</p>
                     </div>
                 </div>
                 <button
-                    class="flex gap-1 items-center px-4 py-1 border-2 text-white text-lg rounded-full hover:bg-blue-700">
-                    <i class="fas fa-share"></i>
+                    class="flex gap-2 items-center px-4 py-1 border-2 text-white text-lg rounded-full hover:bg-blue-700">
+                    <!-- <i class="fas fa-share"></i> -->
+                    <img src="assets/share.png" alt="">
                     <span class="text-base font-normal text-white">Share</span>
                 </button>
             </div>
         </div>
 
         <!-- Blog Content -->
-        <div class="lg:flex lg:space-x-8 mt-8">
+        <div class="lg:flex lg:space-x-8 gap-2 mt-8">
             <!-- Main Content -->
             <div class="lg:w-2/3">
-                <div>
-                    <h2 class="text-3xl text-[#192434] font-medium mb-4">Your Perfect Companion for Every Journey</h2>
-                    <p class="text-gray-700 text-[#192739F0] text-base font-normal mb-4">Traveling can be
-                        transformative, and having the right accessories can make all the difference. Among these, a
-                        stylish travel bag stands out as a practical yet fashionable companion for any traveler. Whether
-                        you're jetting off for a weekend getaway or embarking on a long adventure, the right travel bag
-                        not only holds your essentials but also complements your style.</p>
+            
+              <div>
+                <h2 class="text-3xl text-[#192434] font-medium mb-4">Your Perfect Companion for Every Journey</h2>
+                <p class="text-gray-700  tracking-wide text-[#192739F0] text-base font-normal mb-4">Traveling can be
+                    transformative, and having the right accessories can make all the difference. Among these, a
+                    stylish travel bag stands out as a practical yet fashionable companion for any traveler. Whether
+                    you're jetting off for a weekend getaway or embarking on a long adventure, the right travel bag
+                    not only holds your essentials but also complements your style.</p>
+              </div>
 
+                <div>
                     <h2 class="text-3xl text-[#192434] font-medium mb-4">The Importance of Choosing the Right Travel Bag
                     </h2>
                     <p class="text-gray-700 text-[#192739F0] text-base font-normal mb-4">A stylish travel bag is a blend
                         of functionality and fashion. It's essential to choose a travel bag that fits your journey type
                         while enhancing your overall travel experience.</p>
+                </div>
 
-                    <h2 class="text-3xl text-[#192434] font-medium mb-4">Types of Stylish Travel Bags</h2>
+                    <div>
+                        <h2 class="text-3xl text-[#192434] font-medium mb-4">Types of Stylish Travel Bags</h2>
                     <ol class="list-decimal pl-5 space-y-2">
                         <li class="pl-1 text-gray-700 text-[#192739F0] text-base font-normal mb-4">
 
@@ -93,7 +117,9 @@
 
 
                     </ol>
+                    </div>
 
+                  <div class="mt-4">
                     <h2 class="text-3xl text-[#192434] font-medium mb-4">Types of Stylish Travel Bags</h2>
                     <ol class="list-disc pl-5 space-y-2">
                         <li class="pl-1 text-gray-700 text-[#192739F0] text-base font-normal mb-4">
@@ -126,16 +152,19 @@
 
 
                     </ol>
+                  </div>
 
 
-                    <h2 class="text-3xl text-[#192434] font-medium mb-4">Conclusion</h2>
-                    <p class="text-gray-700 text-[#192739F0] text-base font-normal mb-4">A travel bag is more than just
-                        a container; it's part of your travel journey. Select a bag that matches your needs and style,
-                        making each journey enjoyable and memorable.</p>
-                </div>
+           <div class="mt-4">
+            <h2 class="text-3xl text-[#192434] font-medium mb-4">Conclusion</h2>
+            <p class="text-gray-700 text-[#192739F0] text-base font-normal mb-4">A travel bag is more than just
+                a container; it's part of your travel journey. Select a bag that matches your needs and style,
+                making each journey enjoyable and memorable.</p>
+           </div>
+             
 
                 <!-- Comment Section -->
-                <div class="bg-white flex justify-center p-6 rounded-lg shadow mt-8 ">
+                <div class=" flex justify-center p-6 rounded-lg shadow mt-16 ">
                     <div class="">
                         <h3 class="text-3xl text-center font-medium text-[#192434] mb-4">Leave a Comment</h3>
                         <form>
@@ -144,23 +173,25 @@
                                     <input type="text" id="name"
                                         class="mt-1 pl-2 p-3 text-sm block w-full rounded-md bg-[#FAFBFC] border-[#DFE1E6] shadow focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                                         placeholder="Name *">
-                          
+
                                 </div>
                                 <div>
                                     <input type="email" id="email"
-                                    class="mt-1 pl-2 p-3 text-sm block w-full rounded-md bg-[#FAFBFC] border-[#DFE1E6] shadow focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                                        class="mt-1 pl-2 p-3 text-sm block w-full rounded-md bg-[#FAFBFC] border-[#DFE1E6] shadow focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                                         placeholder="Email *">
                                 </div>
 
 
                             </div>
                             <div class="mb-4">
-                                
+
                                 <textarea id="comment"
                                     class="mt-1 pl-2 block w-full rounded-md bg-[#FAFBFC] border-[#DFE1E6]  shadow focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                                     rows="3" placeholder="Comment *"></textarea>
                             </div>
-                            <button type="submit" class="bg-red-500 text-white text-base px-4 py-2 w-full rounded-full">POST COMMENT</button>
+                            <button type="submit"
+                                class="bg-red-500 text-white text-base px-4 py-2 w-full rounded-full">POST
+                                COMMENT</button>
                         </form>
                     </div>
                 </div>
@@ -171,45 +202,223 @@
                 <div class="bg-white p-6 rounded-3xl border border-[#DFE1E6] shadow">
                     <h3 class="text-4xl font-bold text-center mb-12">In The Spotlight</h3>
                     <div class="space-y-4">
-                        <div class="flex items-start">
-                            <img src="/assets/article-image1.png" alt="Trendy Watch"
-                                class="w-20 h-20 object-cover rounded-lg">
-                            <div class="ml-4">
-                                <h4 class="text-lg font-semibold">Trendy Watch' Fashion</h4>
-                                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <!-- card 1 -->
+                        <div class="flex items-start p-1">
+                            <img src="assets/Article Image.png" alt="Trendy Watch"
+                                class="w-48 h-36 object-cover rounded-lg">
+                            <div class="ml-4 flex flex-col justify-between h-32">
+                                <div class="flex flex-col gap-1">
+                                    <h4 class="text-lg dm-sans font-semibold font">Trendy Watch' Fashion</h4>
+                                    <p class="text-sm text-gray-500">Amir Hussein &nbsp;•&nbsp; May 22, 2024</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                                        style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                                        TRENDY
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex items-start">
-                            <img src="/assets/article-image2.png" alt="Top 10 Travel Bags"
-                                class="w-20 h-20 object-cover rounded-lg">
-                            <div class="ml-4">
-                                <h4 class="text-lg font-semibold">Top 10 Travel Bags</h4>
-                                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
+
+
+    <!-- card 2 -->
+    <div class="flex items-start p-1">
+        <img src="assets/Article Image (1).png" alt="Trendy Watch"
+            class="w-48 h-36 object-cover rounded-lg">
+        <div class="ml-4 flex flex-col justify-between h-32">
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg dm-sans font-semibold font">Eco Chic: The Fashion Revolution</h4>
+                <p class="text-sm text-gray-500">Khalid Siddiqui &nbsp;•&nbsp; Oct 13, 2024</p>
+            </div>
+            <div>
+                <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                    style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                    TRENDY
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- card 3 -->
+  
+
+     <div class="flex items-start p-1">
+        <img src="assets/Article Image (2).png" alt="Trendy Watch"
+            class="w-48 h-36 object-cover rounded-lg">
+        <div class="ml-4 flex flex-col justify-between h-32">
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg dm-sans font-semibold font">Smartphone Accessories</h4>
+                <p class="text-sm text-gray-500">Aliya Khan &nbsp;•&nbsp; Sep 29, 2024</p>
+            </div>
+            <div>
+                <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                    style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                    TRENDY
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- card 4 -->
+  
+
+     <div class="flex items-start p-1">
+        <img src="assets/Article Image (3).png" alt="Trendy Watch"
+            class="w-48 h-36 object-cover rounded-lg">
+        <div class="ml-4 flex flex-col justify-between h-32">
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg dm-sans font-semibold font">Bold Footwear Finds</h4>
+                <p class="text-sm text-gray-500">Sami Rahman &nbsp;•&nbsp; Apr 15, 2024</p>
+            </div>
+            <div>
+                <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                    style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                    TRENDY
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+
+     <!-- card 5 -->
+      <div class="flex items-start p-1">
+        <img src="assets/Article Image (4).png" alt="Trendy Watch"
+            class="w-48 h-36 object-cover rounded-lg">
+        <div class="ml-4 flex flex-col justify-between h-32">
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg dm-sans font-semibold font">Backpacks with Flair</h4>
+                <p class="text-sm text-gray-500">Yusuf Ali &nbsp;•&nbsp; Apr 15, 2024</p>
+            </div>
+            <div>
+                <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                    style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                    TRENDY
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+
+   
+     <!-- card 6 -->
+     <div class="flex items-start p-1">
+        <img src="assets/Article Image (5).png" alt="Trendy Watch"
+            class="w-48 h-36 object-cover rounded-lg">
+        <div class="ml-4 flex flex-col justify-between h-32">
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg dm-sans font-semibold font">Sneaker Trends 2024</h4>
+                <p class="text-sm text-gray-500">Tariq Ahmed &nbsp;•&nbsp; Apr 15, 2024</p>
+            </div>
+            <div>
+                <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                    style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                    TRENDY
+                </h4>
+            </div>
+        </div>
+    </div> 
+
+
+
+      <!-- card 7 -->
+      <div class="flex items-start p-1">
+        <img src="assets/Article Image (6).png" alt="Trendy Watch"
+            class="w-48 h-36 object-cover rounded-lg">
+        <div class="ml-4 flex flex-col justify-between h-32">
+            <div class="flex flex-col gap-1">
+                <h4 class="text-lg dm-sans font-semibold font">Playful Kids' Sneakers</h4>
+                <p class="text-sm text-gray-500"> Adil Mahmood&nbsp;•&nbsp; Apr 15, 2024</p>
+            </div>
+            <div>
+                <h4 class="text-base font-poppins text-[#192739F0] inline-block px-4 py-2 rounded-lg"
+                    style="background-color: #EBECF0; backdrop-filter: blur(10px);">
+                    TRENDY
+                </h4>
+            </div>
+        </div>
+    </div> 
+
+
+
+
                     </div>
                 </div>
             </div>
         </div>
 
+      
+
+
+
+
+      
+           
+        
+        
+
         <!-- Next Posts Section -->
-        <div class="mt-8">
-            <h2 class="text-2xl font-bold mb-4">Next Posts</h2>
+        <div class="mt-12 mb-5">
+           <div class="border-gray-950 flex items-center justify-between">
+            <div class="flex text-6xl border  items-center mb-4">
+                <h2 class="font-bold  text-gray-800 mr-3">NEXT </h2>
+                <h2 class="font-thin  text-gray-400">POSTS</h2>
+            </div>
+            <div>
+                <button
+                class="flex gap-2 items-center px-6 py-3 border-2 text-white text-lg bg-black rounded-full hover:bg-blue-700">
+                <!-- <i class="fas fa-share"></i> -->
+               
+                <span class="text-base font-normal text-white">Share</span>
+                <img src="assets/arrow_circle_right.png" alt="">
+            </button>
+            </div>
+            
+           </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-white p-4 rounded-lg shadow">
-                    <img src="/assets/next-post1.png" alt="Perfect Backpack"
-                        class="w-full h-32 object-cover rounded-lg">
-                    <h3 class="text-lg font-semibold mt-2">How to Choose the Perfect Backpack</h3>
+
+                <!-- card 1 -->
+                <div class="bg-white border border-[#EBECF0] p-4 rounded-lg shadow">
+                    <div>
+                        <img src="assets/Article Image (1).png" alt="Perfect Backpack"
+                        class="w-full h-64 object-cover rounded-lg mb-5">
+                    </div>
+               <div class="">
+                <h3 class="text-xl font-semibold mb-1 mt-2">Eco Chic: The Fashion Revolution</h3>
+                <p class="text-base font text-gray-500"> Khalid Siddiqui&nbsp;•&nbsp; Apr 15, 2024</p>
+               </div>
                 </div>
-                <div class="bg-white p-4 rounded-lg shadow">
-                    <img src="/assets/next-post2.png" alt="Packing Tips" class="w-full h-32 object-cover rounded-lg">
-                    <h3 class="text-lg font-semibold mt-2">Packing Tips for Adventure Travel</h3>
+
+
+                <!-- card 2 -->
+                <div class="bg-white border border-[#EBECF0] p-4 rounded-lg shadow">
+                    <div>
+                        <img src="assets/Article Image (2).png" alt="Perfect Backpack"
+                        class="w-full h-64 object-cover rounded-lg mb-5">
+                    </div>
+               <div class="">
+                <h3 class="text-xl font-semibold mb-1 mt-2">Winter's Top Accessories</h3>
+                <p class="text-base font text-gray-500"> Ibrahim Malik&nbsp;•&nbsp; Apr 15, 2024</p>
+               </div>
                 </div>
-                <div class="bg-white p-4 rounded-lg shadow">
-                    <img src="/assets/next-post3.png" alt="Versatile Duffle Bags"
-                        class="w-full h-32 object-cover rounded-lg">
-                    <h3 class="text-lg font-semibold mt-2">Top 5 Most Versatile Duffle Bags</h3>
+
+                  <!-- card 3 -->
+                  <div class="bg-white border border-[#EBECF0] p-4 rounded-lg shadow">
+                    <div>
+                        <img src="assets/Article Image.png" alt="Perfect Backpack"
+                        class="w-full h-64 object-cover rounded-lg mb-5">
+                    </div>
+               <div class="">
+                <h3 class="text-xl font-semibold mb-1 mt-2">Trendy Watch' Fashion</h3>
+                <p class="text-base font text-gray-500"> Amir Hussein&nbsp;•&nbsp; Apr 15, 2024</p>
+               </div>
                 </div>
+            
+                
             </div>
         </div>
     </div>
